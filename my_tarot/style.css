@@ -1,0 +1,62 @@
+body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background: #f0f2f5; }
+.container { text-align: center; background: white; padding: 2rem; border-radius: 15px; shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.card-box { 
+    width: 200px; height: 300px; border: 2px dashed #ccc; 
+    margin: 20px auto; display: flex; flex-direction: column; 
+    justify-content: center; align-items: center; border-radius: 10px;
+}
+.card-name { font-size: 1.5rem; font-weight: bold; color: #333; }
+.card-pos { color: #e67e22; font-weight: bold; }
+button { padding: 10px 20px; font-size: 1rem; cursor: pointer; background: #5e60ce; color: white; border: none; border-radius: 5px; }
+/* 新增的樣式 */
+.category-select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.ai-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e0e7ff; /* 淡淡的紫色背景 */
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.6;
+    border-left: 5px solid #5e60ce;
+}
+.ai-box h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.1rem;
+}
+/* --- 下面是新加入的樣式 --- */
+
+/* 下拉式選單的美化 */
+.category-select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* AI 解讀區的美化 */
+.ai-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e0e7ff; /* 淡淡的紫色背景，帶點神祕感 */
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.6;
+    border-left: 5px solid #5e60ce; /* 左邊加一條深色粗線增加質感 */
+}
+
+.ai-box h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.1rem;
+}
