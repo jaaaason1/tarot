@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>簡易塔羅占卜</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>AI 塔羅占卜</h1>
+        <select id="question-category" class="category-select">
+            <option value="整體運勢">整體運勢</option>
+            <option value="感情狀況">感情狀況</option>
+            <option value="事業與學業">事業與學業</option>
+        </select>
+        <div id="card-display" class="card-box">
+            <p>選擇問題後，點擊抽牌</p>
+        </div>
+        <button onclick="drawCard()">進行抽牌</button>
+        <div id="ai-result" class="ai-box" style="display: none;">
+            <h3>✨ AI 專屬解讀 ✨</h3>
+            <p id="ai-text">等待神諭降臨...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
